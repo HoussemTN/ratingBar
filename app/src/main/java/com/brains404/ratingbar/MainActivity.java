@@ -40,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
                editRatingPrefs.apply();
                 Log.d(Const.RATING_VALUE, String.valueOf(ratingPrefs.getFloat(Const.RATING_VALUE, DEFAULT_RATING_VALUE)));
                 Toast.makeText(getApplicationContext(),"Rate : "+ratingBar.getRating(),Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this,Rated.class);
+                finish();
+                startActivity(intent);
             }
         });
     }

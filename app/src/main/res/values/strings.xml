@@ -3,4 +3,6 @@
     <string name="rating_bar">Rate Me</string>
     <string name="submit">Submit</string>
     <string name="refresh">Refresh</string>
+    <string name="back">Rate Again</string>
+    <string name="your_rate">Your Rate</string>
 </resources>
